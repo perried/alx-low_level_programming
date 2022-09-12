@@ -11,6 +11,7 @@ int main(void)
 	while (ch <= 122)
 	{
 		putchar(ch);
+		ch++;
 	}
 	return (0);
 }
