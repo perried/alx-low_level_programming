@@ -8,8 +8,8 @@
  */
 int _isalpha(int c)
 {
-	bool _islower = (c >= 97 && c <= 122);
-	bool _isupper = (c >= 65 && c <= 90);
+	int _islower = (c >= 97 && c <= 122);
+	int _isupper = (c >= 65 && c <= 90);
 
 	if (_islower || _isupper)
 		return (1);
