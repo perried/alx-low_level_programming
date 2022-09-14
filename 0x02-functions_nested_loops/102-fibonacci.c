@@ -12,11 +12,12 @@ int main(void)
 	int next_term = t1 + t2;
 	int i;
 
-	for (i = 3; i <= 50; i++)
+	for (i = 3; i <= 50; ++i)
 	{
 		printf("%d, %d", t1, t2);
 		t1 = next_term;
 		t2 += next_term;
+		next_term = t1 + t2;
 	}
 	printf("\n");
 	return (0);
