@@ -15,24 +15,24 @@ int main(void)
 		{
 			if (i % 15 == 0)
 			{
-				puts("FizzBuzz ");
+				printf("%d", "FizzBuzz ");
 			}
 			else if (i % 3 == 0)
 			{
-				puts("Fizz ");
+				printf("%s", "Fizz ");
 			}
 			else if (i % 5 == 0)
 			{
-				puts("Buzz ");
+				printf("%s", "Buzz ");
 			}
 			else
 			{
-				prinf("%d", i);
+				prinf("%d ", i);
 			}
 		}
 		else
 		{
-			puts("Buzz");
+			printf("%s", "Buzz");
 		}
 
 	}
