@@ -22,7 +22,7 @@ void print_triangle(int size)
 		for (height = 1; height <= size; height++)
 		{
 			spaces = size - counter;
-			while (spces >= 1)
+			while (spaces >= 1)
 			{
 				_putchar(' ');
 				spaces--;
