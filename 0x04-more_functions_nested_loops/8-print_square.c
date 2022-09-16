@@ -17,10 +17,10 @@ void print_square(int size)
 		int i;
 		int n;
 
-		for (i = 0; i <= size; i++)
+		for (i = 0; i < size; i++)
 		{
 			n = 0;
-			while (n <= size)
+			while (n < size)
 			{
 				_putchar('#');
 				n++;
