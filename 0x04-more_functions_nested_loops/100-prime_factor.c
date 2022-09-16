@@ -8,13 +8,13 @@
 int main(void)
 {
 	long int x = 612852475143;
-	long int py;
+	long int j;
 
-	for (py = 2; j < x; py++)
+	for (j = 2; j < x; j++)
 	{
 		if (x % j == 0)
 		{
-			x = x / py;
+			x = x / j;
 		}
 	}
 	printf("%ld\n", j);
