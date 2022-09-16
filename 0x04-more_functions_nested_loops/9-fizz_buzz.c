@@ -7,9 +7,9 @@
 
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	for (i = 1; i <= 100; i++)
+	while (i < 101)
 	{
 		if (i % 15 == 0)
 		{
@@ -25,12 +25,13 @@ int main(void)
 		}
 		else
 		{
-			prinf("%d ", i);
+			printf("%d", i);
 		}
 		if (i != 100)
 		{
 			printf(" ");
 		}
+		i++;
 
 	}
 	printf("\n");
