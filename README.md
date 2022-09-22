@@ -1,1 +1,1 @@
-Projects on pointers,arrays and strings
+Getting started with c
