@@ -11,6 +11,7 @@
 
 int main(int argc, char *argv[])
 {
+	(void)arc;
 	printf("%s\n", argv[0]);
 
 	return (0);
