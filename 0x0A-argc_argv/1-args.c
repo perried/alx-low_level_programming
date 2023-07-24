@@ -8,7 +8,7 @@
  * Return: Exit status
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 	(void)argv;
 	printf("%d\n", argc);
