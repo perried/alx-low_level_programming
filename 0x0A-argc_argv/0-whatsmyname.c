@@ -5,7 +5,7 @@
 /**
  * main - Prints the name of the program
  * @argc: arguments count
- * argv: arguments vector
+ * @argv: arguments vector
  * Return: Exit Status
  */
 
