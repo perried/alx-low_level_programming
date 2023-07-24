@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * main - The main function of the program
- * @argc - the number of args passed to the command line including program name
- * @argv - the array of args passed to the command line including programname
- * Return - Exit Status of the program after execution
+ * main - Prints the name of the program
+ * @argc: arguments count
+ * argv: arguments vector
+ * Return: Exit Status
  */
 
 int main(int argc, char *argv[])
